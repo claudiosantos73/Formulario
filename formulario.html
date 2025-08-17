@@ -6,24 +6,25 @@
     <title>Formulario</title>
 </head>
 <body>
-    <div class="box"> <!-- vai agrupar todos os elementos - digitei .box)--> 
+    <div class="box"> <!-- BOX vai agrupar todos os elementos--> 
         <form action="">
             <fieldset>
                 <legend><b>Formulário de Clientes</b></legend>
                 <br>
             <div class="inputBox">
+                <label for="nome"><b>Nome do Paciente:</b></label>
                 <input type="text" name="nome" id="nome" class="inputUser" required>
-                <label for="nome">Nome do Paciente</label>
-            </div>
+            </div><br>
 
             <div class="inputBox">
+                <label for="email">Email:</label>
                 <input type="email" name="email" id="email" class="inputUser" required>
-                <label for="email">Email</label>
-            </div>
+            </div><br>
 
             <div class="inputBox">
+                <label for="telefone">Telefone:</label>
                 <input type="number" name="telefone" id="telefone" class="inputUser" required>
-                <label for="telefone">Telefone</label>
+                
             </div>
             <!--
             <div class="inputBox">
@@ -54,21 +55,22 @@
             </div><br>
 
         <div class="inputBox">
+                <label for="cidade">Cidade:</label>
                 <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                <label for="cidade">Cidade</label>
+                
             </div>
         <div class="inputBox">
+                <label for="estado">Estado:</label>
                 <input type="text" name="estado" id="estado" class="inputUser" required>
-                <label for="estado">Estado</label>
             </div>
         <div class="inputBox">
+                <label for="endereco">Endereço:</label>
                 <input type="text" name="endereo" id="endereco" class="inputUser" required>
-                <label for="endereco">Endereço</label>
             </div>
         
         <div class="inputBox">
+                <label for="cep">Cep:</label>
                 <input type="number" name="cep" id="cep" class="inputUser" required>
-                <label for="cep">Cep</label>
             </div><br>    
         
             <button>Salvar</button>
